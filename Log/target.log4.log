@@ -1,0 +1,47 @@
+10:20:31.654 [main] INFO  - login page
+10:20:31.856 [main] INFO  - username
+10:20:33.141 [main] INFO  - password
+10:20:33.305 [main] INFO  - selectLocator
+10:20:37.114 [main] INFO  - loginbutton
+10:20:39.317 [main] INFO  - AppoinmentScheduling
+10:20:43.128 [main] INFO  - AppoinmentScheduleProvider
+10:20:45.323 [main] INFO  - calender
+10:20:47.546 [main] INFO  - selectprovider
+10:20:49.728 [main] INFO  - starttime1
+10:20:49.836 [main] INFO  - starttime2
+10:20:49.941 [main] INFO  - starttime3
+10:20:50.091 [main] INFO  - endtime1
+10:20:50.272 [main] INFO  - endtime2
+10:20:50.440 [main] INFO  - endtime3
+10:20:51.137 [main] INFO  - selectmultipleappointmenttypes
+10:21:04.909 [main] INFO  -  Browser is open
+10:21:05.432 [main] INFO  - Give username and password
+10:21:05.746 [main] INFO  - choose location
+10:21:07.612 [main] INFO  - click login
+10:21:16.271 [main] INFO  - login page
+10:21:16.471 [main] INFO  - username
+10:21:17.803 [main] INFO  - password
+10:21:18.037 [main] INFO  - locator
+10:21:21.442 [main] INFO  - loginbutton
+10:21:23.471 [main] INFO  - appoinmentscheduling
+10:21:25.488 [main] INFO  - manageappoinments
+10:21:26.688 [main] INFO  - searchpatient
+10:21:34.966 [main] INFO  - Result
+10:21:48.704 [main] INFO  - login page
+10:21:48.881 [main] INFO  - username
+10:21:50.128 [main] INFO  - password
+10:21:50.285 [main] INFO  - locator
+10:21:53.462 [main] INFO  - loginbutton
+10:21:55.307 [main] INFO  - appoinmentscheduling
+10:21:57.360 [main] INFO  - manageappoinments
+10:21:58.574 [main] INFO  - searchpatient
+10:22:06.732 [main] INFO  - Result
+10:22:21.915 [main] INFO  - login page
+10:22:22.127 [main] INFO  - username
+10:22:23.386 [main] INFO  - password
+10:22:23.567 [main] INFO  - locator
+10:22:27.013 [main] INFO  - loginbutton
+10:22:29.121 [main] INFO  - appoinmentscheduling
+10:22:31.126 [main] INFO  - manageappoinments
+10:22:32.615 [main] INFO  - searchpatient
+10:22:40.943 [main] INFO  - Result

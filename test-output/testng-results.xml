@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="4" ignored="0" total="13" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T10:33:45 IST" name="Suite" finished-at="2024-03-01T10:40:41 IST" duration-ms="416059">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-01T10:33:45 IST" name="Test" finished-at="2024-03-01T10:40:41 IST" duration-ms="416059">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:33:45 IST" name="setUpClass" finished-at="2024-03-01T10:33:48 IST" duration-ms="2835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6894d28d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:33:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:34:29 IST" duration-ms="40340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Managing Appointment Blocks"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMRS login file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:34:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:34:39 IST" duration-ms="10617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User logs in with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:34:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:35:14 IST" duration-ms="34513" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manage OpenMRS"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMRS Manage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at stepdefinitions.ManageStepdefinition.admin_navigate_to_homepage(ManageStepdefinition.java:102)
+at ✽.admin navigate to homepage(file:///C:/Users/rubin/eclipse-workspace/New%20folder%20(2)/RLL_Group6/src/test/resources/Features/Manage.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:35:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:35:46 IST" duration-ms="32048" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manage OpenMRS"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMRS Manage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at stepdefinitions.ManageStepdefinition.admin_navigate_to_homepage(ManageStepdefinition.java:102)
+at ✽.admin navigate to homepage(file:///C:/Users/rubin/eclipse-workspace/New%20folder%20(2)/RLL_Group6/src/test/resources/Features/Manage.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:35:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:36:15 IST" duration-ms="29161" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manage OpenMRS"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMRS Manage"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at stepdefinitions.ManageStepdefinition.admin_navigate_to_homepage(ManageStepdefinition.java:102)
+at ✽.admin navigate to homepage(file:///C:/Users/rubin/eclipse-workspace/New%20folder%20(2)/RLL_Group6/src/test/resources/Features/Manage.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:36:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:36:44 IST" duration-ms="29073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manage OpenMRS website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMRS Manage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:36:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:37:11 IST" duration-ms="27250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hospital Management project"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMRS Login file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:37:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:38:12 IST" duration-ms="60662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing the openmrs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["openmrs healthcare"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:38:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:38:49 IST" duration-ms="37503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open registration page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:38:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:39:16 IST" duration-ms="26566" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find patient records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["find patient records of the page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d6063369bc4404345427c8728c57df6, sendKeysToElement {id=f.433245DEDB1B23E5384D203BBFDFFE8D.d.322423A14037C55662E27FD6AE7149F8.e.150, value=[Ljava.lang.CharSequence;@36931450}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\rubin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63884/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8d6063369bc4404345427c8728c57df6)] -> xpath: //*[@id="birthdateDay-field"]]
+Session ID: 8d6063369bc4404345427c8728c57df6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d6063369bc4404345427c8728c57df6, sendKeysToElement {id=f.433245DEDB1B23E5384D203BBFDFFE8D.d.322423A14037C55662E27FD6AE7149F8.e.150, value=[Ljava.lang.CharSequence;@36931450}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\rubin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63884/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8d6063369bc4404345427c8728c57df6)] -> xpath: //*[@id="birthdateDay-field"]]
+Session ID: 8d6063369bc4404345427c8728c57df6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at stepdefinitions.findrecords.i_open_the_find_patient_records_page(findrecords.java:81)
+at ✽.I open the find patient records page(file:///C:/Users/rubin/eclipse-workspace/New%20folder%20(2)/RLL_Group6/src/test/resources/Features/Senario8.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:39:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:39:39 IST" duration-ms="23066" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find patient records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["find patient records of the page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c8403dc7bcef5dc8df14465489d4022, sendKeysToElement {id=f.EF77D1962FA08536561F0E5535E789FE.d.28D25A7D6022DCB5770CC610EEAC24BC.e.152, value=[Ljava.lang.CharSequence;@6c767288}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\rubin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63954/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1c8403dc7bcef5dc8df14465489d4022)] -> xpath: //*[@id="birthdateDay-field"]]
+Session ID: 1c8403dc7bcef5dc8df14465489d4022]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c8403dc7bcef5dc8df14465489d4022, sendKeysToElement {id=f.EF77D1962FA08536561F0E5535E789FE.d.28D25A7D6022DCB5770CC610EEAC24BC.e.152, value=[Ljava.lang.CharSequence;@6c767288}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\rubin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63954/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1c8403dc7bcef5dc8df14465489d4022)] -> xpath: //*[@id="birthdateDay-field"]]
+Session ID: 1c8403dc7bcef5dc8df14465489d4022
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at stepdefinitions.findrecords.i_open_the_find_patient_records_page(findrecords.java:81)
+at ✽.I open the find patient records page(file:///C:/Users/rubin/eclipse-workspace/New%20folder%20(2)/RLL_Group6/src/test/resources/Features/Senario8.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:39:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:40:03 IST" duration-ms="23455" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Find patient records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["find patient records of the page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [861d22ece2508b1451ccf28427c44a4c, sendKeysToElement {id=f.ECC4DE6B42105E48A1B68826D67F163E.d.CB00A8A0B8A34A507C2597BBAD76BA02.e.153, value=[Ljava.lang.CharSequence;@47224d5d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\rubin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63998/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (861d22ece2508b1451ccf28427c44a4c)] -> xpath: //*[@id="birthdateDay-field"]]
+Session ID: 861d22ece2508b1451ccf28427c44a4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [861d22ece2508b1451ccf28427c44a4c, sendKeysToElement {id=f.ECC4DE6B42105E48A1B68826D67F163E.d.CB00A8A0B8A34A507C2597BBAD76BA02.e.153, value=[Ljava.lang.CharSequence;@47224d5d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\rubin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63998/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (861d22ece2508b1451ccf28427c44a4c)] -> xpath: //*[@id="birthdateDay-field"]]
+Session ID: 861d22ece2508b1451ccf28427c44a4c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at stepdefinitions.findrecords.i_open_the_find_patient_records_page(findrecords.java:81)
+at ✽.I open the find patient records page(file:///C:/Users/rubin/eclipse-workspace/New%20folder%20(2)/RLL_Group6/src/test/resources/Features/Senario8.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:40:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T10:40:36 IST" duration-ms="33344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login1 openMrs1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OpenMrs1 login1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7d900ecf]" started-at="2024-03-01T10:40:36 IST" name="tearDownClass" finished-at="2024-03-01T10:40:41 IST" duration-ms="5397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
